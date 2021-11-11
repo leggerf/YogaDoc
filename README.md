@@ -53,7 +53,9 @@ spark_session = SparkSession(spark)
  
 An example [notebook](sparkHDFS_example.ipynb) that shows how to start spark and read/write from HDFS is available.
 
-**Yoga is not a production cluster. As such, it is provided with support on a best effort basis, and may be subject to downtimes on short notice.**
+### Please note
+
+**Yoga is not a production cluster**. As such, it is provided with support on a best effort basis, and may be subject to downtimes on short notice.
 
 ### Related articles
 
