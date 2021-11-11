@@ -44,11 +44,13 @@ Yoga can be accessed through a web interface based on JupyterHub.
 - Create a notebook with kernel *pyspark*
 - You can use the following code to start the spark context:
 
+```
 spark=%sc
 
 from pyspark.sql import SparkSession
 spark_session = SparkSession(spark)
-
+```
+ 
 An example [notebook](sparkHDFS_example.ipynb) that shows how to start spark and read/write from HDFS is available.
 
 **Yoga is not a production cluster. As such, it is provided with support on a best effort basis, and may be subject to downtimes on short notice.**
